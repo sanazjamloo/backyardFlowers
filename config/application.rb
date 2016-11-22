@@ -1,10 +1,4 @@
-config.action_dispatch.default_headers.merge!({
-  'Access-Control-Allow-Origin' => 'https://backyardflowers-ui.herokuapp.com',
-  'Access-Control-Request-Method' => 'GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD'
-})
-
 require_relative 'boot'
-
 require "rails"
 # Pick the frameworks you want:
 require "active_model/railtie"
